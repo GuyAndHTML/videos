@@ -35,25 +35,6 @@
 <br><br><br><br><br><br><br><br><br><br><br>
   <h1><a href="content.html">View Content</a></h1>
 
-  <form class="form" id="myForm">
-    <input type="file" id="inpFile"><br>
-    <button type="submit"">Upload webm</button>
-  </form>
-  
-  <script>
-    const myForm = document.getElementById("myForm");
-    const myForm = document.getElementById("inpFile");
-
-    myForm.addEventListener("submit", e => {
-      e.preventDefault();
-    });
-
-    const endpoint = "upload.php";
-    const formData = new FormData();
-
-    formData.append("inpFile", inpFile.files[0]);
-  </script>
-
 
 
 </body>
